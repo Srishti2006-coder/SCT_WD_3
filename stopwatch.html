@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,11 +9,17 @@
   <link rel="stylesheet" href="watch.css" />
 </head>
 <body>
+  <div class="overlay"></div>
   <div class="container">
-    <h1>Stopwatch Clock</h1>
+    <h1>⏱ Stopwatch Clock</h1>
+    <p>
+      Stopwatch is more than just a timer — it’s a tool that teaches us discipline, focus, and time management.  
+      Students use it to plan their study sessions, schools rely on it during sports events, and in life, it helps us value every second.  
+      Because every moment counts!
+    </p>
 
     <div class="controls">
-      <button id="colorBtn">COLOR</button>
+      <button id="colorBtn">🎨 COLOR</button>
       <label for="timerSelect">⏳</label>
       <select id="timerSelect">
         <option value="25" selected>25min</option>
@@ -24,10 +29,12 @@
       </select>
     </div>
 
-    <div id="display">30:00</div>
+    <div id="display">25 : 00</div>
 
-    <button id="startBtn">Start</button>
-    <button id="stopBtn">Stop</button>
+    <div>
+      <button id="startBtn">▶ Start</button>
+      <button id="stopBtn">⏸ Stop</button>
+    </div>
   </div>
 
   <script src="watch.js"></script>
