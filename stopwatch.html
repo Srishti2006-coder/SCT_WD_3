@@ -1,0 +1,35 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stopwatch Clock</title>
+  <link rel="stylesheet" href="watch.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Stopwatch Clock</h1>
+
+    <div class="controls">
+      <button id="colorBtn">COLOR</button>
+      <label for="timerSelect">⏳</label>
+      <select id="timerSelect">
+        <option value="25" selected>25min</option>
+        <option value="30">30min</option>
+        <option value="50">50min</option>
+        <option value="55">55min</option>
+      </select>
+    </div>
+
+    <div id="display">30:00</div>
+
+    <button id="startBtn">Start</button>
+    <button id="stopBtn">Stop</button>
+  </div>
+
+  <script src="watch.js"></script>
+</body>
+</html>
